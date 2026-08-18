@@ -1,13 +1,30 @@
-# Portfolio — SHASHANK JUMBARTHI
+# Portfolio — Shashank Jumbarthi
 
-This repository contains a single-page portfolio (index.html + styles.css) that can be deployed via GitHub Pages.
+Personal portfolio site showcasing my work in IT support, cloud engineering, DevOps, and DevSecOps.
 
-How to publish:
-1. Create repository (e.g., `shashank-jumbarthi/portfolio`) and push these files.
-2. In repo Settings → Pages, select branch `main` (or `gh-pages`) and root folder → Save.
-3. Your site will be available at `https://<username>.github.io/<repo>` (or at the custom domain, if configured).
+## 🌐 Live Site
 
-Want me to commit & enable Pages for you? Provide:
-- Repo owner/name (e.g., shashank-jumbarthi/portfolio)
-- Branch to use (or say "default")
-- Any images or repo links to include for project cards
+**https://shashank-jumbarthi.github.io/portfolio/**
+
+## 📋 Sections
+
+- Professional Summary
+- Core Technical Skills
+- Featured Projects (TitanFabric, Cybersecurity Walkthrough, Banking System, Network Design, Sample Python App)
+- Selected Experience
+- Education & Certifications
+- Contact
+
+## 🛠️ Tech
+
+- HTML5 + CSS3 (vanilla — zero dependencies)
+- GitHub Pages for hosting
+- Intersection Observer for scroll animations
+
+## 🚀 Deploy
+
+Any push to the `main` branch automatically deploys via GitHub Pages.
+
+---
+
+Built with HTML & CSS
