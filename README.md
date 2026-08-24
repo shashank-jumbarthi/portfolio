@@ -12,7 +12,7 @@ The portfolio is aligned with the updated resume and a DevOps/cloud career direc
 
 ## Portfolio Highlights
 
-- **developerFolio-style introduction** — Original-style header, Agustina logo wordmark, greeting, social links, resume button, project link, and large hero visual.
+- **developerFolio-style introduction** — Original-style header, Agustina logo wordmark, circular social icons, resume buttons, and large hero visual.
 - **Career proof points** — 7+ years of IT/cloud experience, graduate cybersecurity education, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
 - **What I do section** — Cloud infrastructure, DevOps automation, DevSecOps, and observability.
 - **Proficiency bars** — Practical strengths across cloud infrastructure, CI/CD, containers, scripting, security, and monitoring.
@@ -60,8 +60,10 @@ http://localhost:8000
 portfolio/
 ├── assets/
 │   └── Agustina.woff           # developerFolio logo font
+│   └── contactMail.webp        # developerFolio contact illustration
 │   └── manOnTable.svg          # developerFolio hero illustration
 │   └── shashank-jumbarthi-resume.pdf
+│   └── skill.svg               # developerFolio skills illustration
 ├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
 └── README.md                   # Project overview and setup

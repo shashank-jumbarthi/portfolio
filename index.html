@@ -33,19 +33,17 @@
   <main id="main">
     <section id="home" class="hero section">
       <div class="hero-copy">
-        <p class="eyebrow">Cloud Engineering | DevOps | DevSecOps</p>
-        <h1>Hi all, I'm Shashank <span class="wave-emoji" aria-hidden="true">👋</span></h1>
+        <h1>Hi all, I'm Shashank <span class="wave-emoji" aria-hidden="true">&#128075;</span></h1>
         <p class="subtitle">
           IT and Cloud Engineer with 7+ years of experience supporting enterprise infrastructure, cloud environments, production operations, automation, CI/CD, and security-aware delivery across AWS and Azure.
         </p>
         <div class="social-row" aria-label="Profile links">
-          <a href="mailto:Shashankjumbarthi7@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/shashankjumbarthi" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener">GitHub</a>
+          <a class="icon-button google" href="mailto:Shashankjumbarthi7@gmail.com" aria-label="Email Shashank"><span>@</span></a>
+          <a class="icon-button linkedin" href="https://www.linkedin.com/in/shashankjumbarthi" target="_blank" rel="noopener" aria-label="LinkedIn profile"><span>in</span></a>
+          <a class="icon-button github" href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener" aria-label="GitHub profile"><span>GH</span></a>
         </div>
         <div id="resume" class="hero-actions">
           <a class="button primary" href="#contact">Contact Me</a>
-          <a class="button ghost" href="#projects">See Projects</a>
           <a class="button primary" href="assets/shashank-jumbarthi-resume.pdf" target="_blank" rel="noopener">Download my resume</a>
         </div>
       </div>
@@ -54,31 +52,26 @@
       </div>
     </section>
 
-    <section id="skills" class="section split-section">
-      <div>
-        <p class="eyebrow">What I Do</p>
-        <h2>I build and support cloud systems that are repeatable, observable, and production-ready.</h2>
+    <section id="skills" class="section skills-section">
+      <div class="skills-image">
+        <img src="assets/skill.svg" alt="" />
       </div>
-      <div class="feature-list">
-        <article>
-          <h3>Cloud and Infrastructure Engineering</h3>
-          <p>Designing and supporting AWS and Azure infrastructure with EC2, VPC, S3, IAM, RDS, CloudWatch, Route 53, Terraform, CloudFormation, Ansible, Linux administration, cloud networking, and infrastructure as code.</p>
-        </article>
-        <article>
-          <h3>DevOps and Platform Automation</h3>
-          <p>Creating CI/CD workflows, deployment automation, containerized workloads, Kubernetes operations, release checks, Python, PowerShell, Bash automation, GitHub Actions, Jenkins, and repeatable operational runbooks.</p>
-        </article>
-        <article>
-          <h3>DevSecOps and Observability</h3>
-          <p>Applying least-privilege IAM, security groups, network ACLs, encryption, patching, vulnerability remediation, CloudWatch, Prometheus, Grafana, ELK Stack, alerting, incident response, and root-cause analysis.</p>
-        </article>
+      <div class="skills-copy">
+        <h2>What I do</h2>
+        <p class="subtitle">Cloud, DevOps, automation, and security-aware infrastructure delivery.</p>
+        <div class="software-row" aria-label="Core technologies">
+          <span>AWS</span><span>Azure</span><span>Terraform</span><span>Kubernetes</span><span>Docker</span><span>Jenkins</span><span>Python</span><span>Linux</span>
+        </div>
+        <p class="skills-text">&#9889; Design and support AWS and Azure infrastructure with infrastructure as code, cloud networking, IAM, monitoring, and production troubleshooting.</p>
+        <p class="skills-text">&#9889; Build CI/CD workflows and automation with Jenkins, GitHub Actions, Terraform, CloudFormation, Ansible, Python, PowerShell, and Bash.</p>
+        <p class="skills-text">&#9889; Strengthen platforms with DevSecOps practices, observability, vulnerability remediation, incident response, and reliability-focused runbooks.</p>
       </div>
     </section>
 
     <section class="section proficiency-section" aria-labelledby="proficiency-title">
       <div class="section-heading">
         <p class="eyebrow">Proficiency</p>
-        <h2 id="proficiency-title">Core strengths</h2>
+        <h2 id="proficiency-title">Proficiency</h2>
       </div>
       <div class="bars">
         <div class="bar-item">
@@ -103,9 +96,9 @@
     <section id="education" class="section" aria-labelledby="education-title">
       <div class="section-heading">
         <p class="eyebrow">Education</p>
-        <h2 id="education-title">Degrees and certifications</h2>
+        <h2 id="education-title">Education</h2>
       </div>
-      <div class="card-grid four">
+      <div class="education-list">
         <article class="info-card">
           <p class="date">May 2025</p>
           <h3>Master of Science, Cybersecurity</h3>
@@ -121,18 +114,13 @@
           <h3>Bachelor of Science, Computer Science</h3>
           <p>University of Madras, Chennai, India</p>
         </article>
-        <article class="info-card">
-          <p class="date">EC-Council</p>
-          <h3>Certified Ethical Hacker</h3>
-          <p>Security methodology, vulnerability assessment, and ethical hacking fundamentals.</p>
-        </article>
       </div>
     </section>
 
     <section id="experience" class="section" aria-labelledby="experience-title">
       <div class="section-heading">
         <p class="eyebrow">Experience</p>
-        <h2 id="experience-title">Professional timeline</h2>
+        <h2 id="experience-title">Experience</h2>
       </div>
       <div class="experience-list">
         <article class="experience-card">
@@ -178,7 +166,7 @@
     <section id="projects" class="section" aria-labelledby="projects-title">
       <div class="section-heading">
         <p class="eyebrow">Projects</p>
-        <h2 id="projects-title">Cloud and DevSecOps projects</h2>
+        <h2 id="projects-title">Projects</h2>
       </div>
       <div class="card-grid projects">
         <article class="project-card highlight">
@@ -210,32 +198,39 @@
       <div class="achievement-row">
         <article>
           <h3>Certified Ethical Hacker</h3>
-          <p>Security mindset across identity, endpoint protection, vulnerability remediation, and secure cloud operations.</p>
+          <p>Security mindset across identity, vulnerability remediation, endpoint protection, and secure cloud operations.</p>
         </article>
         <article>
           <h3>Cybersecurity Graduate</h3>
           <p>Graduate cybersecurity foundation for incident response, cloud security, security operations, and risk-aware infrastructure support.</p>
         </article>
+        <article>
+          <h3>Cloud and DevOps Focus</h3>
+          <p>AWS, Azure, Kubernetes, Terraform, CI/CD automation, observability, and production reliability.</p>
+        </article>
       </div>
     </section>
 
     <section id="contact" class="section contact-section">
-      <div>
+      <div class="contact-copy">
         <p class="eyebrow">Contact Me</p>
-        <h2>Let us build reliable cloud platforms and delivery pipelines.</h2>
-        <p class="subtitle">Open to DevOps, cloud engineering, DevSecOps, platform engineering, and infrastructure automation opportunities.</p>
+        <h2>Reach Out to me!</h2>
+        <p class="subtitle contact-subtitle">Discuss DevOps, cloud engineering, platform automation, DevSecOps, infrastructure reliability, or an opportunity.</p>
+        <a class="contact-detail-email" href="mailto:Shashankjumbarthi7@gmail.com">Shashankjumbarthi7@gmail.com</a>
+        <div class="social-row contact-social" aria-label="Contact links">
+          <a class="icon-button google" href="mailto:Shashankjumbarthi7@gmail.com" aria-label="Email Shashank"><span>@</span></a>
+          <a class="icon-button linkedin" href="https://www.linkedin.com/in/shashankjumbarthi" target="_blank" rel="noopener" aria-label="LinkedIn profile"><span>in</span></a>
+          <a class="icon-button github" href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener" aria-label="GitHub profile"><span>GH</span></a>
+        </div>
       </div>
-      <div class="contact-card">
-        <a href="mailto:Shashankjumbarthi7@gmail.com">Shashankjumbarthi7@gmail.com</a>
-        <a href="assets/shashank-jumbarthi-resume.pdf" target="_blank" rel="noopener">Download resume</a>
-        <a href="https://www.linkedin.com/in/shashankjumbarthi" target="_blank" rel="noopener">LinkedIn profile</a>
-        <a href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener">GitHub profile</a>
+      <div class="contact-image" aria-hidden="true">
+        <img src="assets/contactMail.webp" alt="" />
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Inspired by the developerFolio template. Built for GitHub Pages.</p>
+    <p>Made with developerFolio style. Built for GitHub Pages.</p>
   </footer>
 </body>
 </html>
