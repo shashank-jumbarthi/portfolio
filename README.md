@@ -1,6 +1,6 @@
 # Shashank Jumbarthi — Cloud & DevOps Portfolio
 
-> Cloud and DevOps engineer focused on AWS, Azure, Kubernetes, Terraform, CI/CD, automation, DevSecOps, observability, and secure infrastructure.
+> IT and Cloud Engineer with 7+ years of experience across AWS, Azure, Kubernetes, Terraform, CI/CD, automation, DevSecOps, observability, and secure infrastructure.
 
 [**View the live portfolio**](https://shashank-jumbarthi.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/shashankjumbarthi/) · [GitHub](https://github.com/shashank-jumbarthi) · [Email](mailto:shashankjumbarthi7@gmail.com)
 
@@ -8,18 +8,18 @@
 
 This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site uses a developerFolio-inspired layout while staying as a lightweight static GitHub Pages site.
 
-The portfolio is aligned with a DevOps and cloud career direction, highlighting AWS, Azure, Kubernetes, Terraform, CI/CD, scripting, monitoring, DevSecOps, infrastructure reliability, and practical troubleshooting experience from an IT operations background. A downloadable resume PDF is included in the site assets.
+The portfolio is aligned with the updated resume and a DevOps/cloud career direction, highlighting AWS, Azure, Kubernetes, Terraform, CI/CD, scripting, monitoring, DevSecOps, infrastructure reliability, and production troubleshooting. A downloadable resume PDF is included in the site assets.
 
 ## Portfolio Highlights
 
 - **developerFolio-style introduction** — Greeting, social links, resume button, project link, and a large hero visual.
-- **Career proof points** — M.S. Cybersecurity, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
+- **Career proof points** — 7+ years of IT/cloud experience, graduate cybersecurity education, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
 - **What I do section** — Cloud infrastructure, DevOps automation, DevSecOps, and observability.
 - **Proficiency bars** — Practical strengths across cloud infrastructure, CI/CD, containers, scripting, security, and monitoring.
 - **Featured projects** — KubeForge and AegisForge.
 - **Technical expertise** — Skills grouped around cloud platforms, infrastructure as code, DevOps, automation, security, and monitoring.
 - **Experience timeline** — Datara Inc, Smart & Creative Solutions Group, and EditPoint roles.
-- **Education and certifications** — M.S. Cybersecurity, B.S. Computer Science, and CEH.
+- **Education and certifications** — Cybersecurity master's degrees, B.S. Computer Science, and CEH.
 - **Template inspiration** — Adapted from the structure and feel of [developerFolio](https://github.com/saadpasta/developerFolio), implemented without requiring a React build pipeline.
 
 ## Featured Projects
