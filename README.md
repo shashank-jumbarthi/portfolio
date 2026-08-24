@@ -1,26 +1,25 @@
-# Shashank Jumbarthi — DeveloperFolio-Style Portfolio
+# Shashank Jumbarthi — Cloud & DevOps Portfolio
 
-> Desktop Support Technician and cloud engineer focused on Tier 1/2 support, Microsoft 365, Active Directory, endpoint support, cloud operations, automation, DevOps, and cybersecurity.
+> Cloud and DevOps engineer focused on AWS, Azure, Kubernetes, Terraform, CI/CD, automation, DevSecOps, observability, and secure infrastructure.
 
 [**View the live portfolio**](https://shashank-jumbarthi.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/shashankjumbarthi/) · [GitHub](https://github.com/shashank-jumbarthi) · [Email](mailto:shashankjumbarthi7@gmail.com)
 
 ## About
 
-This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site now uses a developerFolio-inspired layout while staying as a lightweight static GitHub Pages site.
+This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site uses a developerFolio-inspired layout while staying as a lightweight static GitHub Pages site.
 
-The portfolio is aligned with the latest resume and highlights hands-on enterprise support across Windows, macOS, Linux, Microsoft 365, Active Directory, Microsoft Entra ID, endpoint management, networking, AWS, Azure, CI/CD, scripting, monitoring, and documentation.
+The portfolio is aligned with a DevOps and cloud career direction, highlighting AWS, Azure, Kubernetes, Terraform, CI/CD, scripting, monitoring, DevSecOps, infrastructure reliability, and practical troubleshooting experience from an IT operations background.
 
 ## Portfolio Highlights
 
 - **developerFolio-style introduction** — Greeting, social links, call-to-action buttons, and a large hero visual.
-- **Career proof points** — Enterprise user support, M.S. Cybersecurity, CEH, and cloud/CI/CD experience.
-- **What I do section** — Desktop support, identity/endpoint operations, and cloud automation.
-- **Proficiency bars** — Practical strengths across support, Microsoft platforms, cloud, monitoring, and troubleshooting.
+- **Career proof points** — M.S. Cybersecurity, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
+- **What I do section** — Cloud infrastructure, DevOps automation, DevSecOps, and observability.
+- **Proficiency bars** — Practical strengths across cloud infrastructure, CI/CD, containers, scripting, security, and monitoring.
 - **Featured projects** — KubeForge and AegisForge.
-- **Technical expertise** — Skills grouped by IT support, systems/Microsoft, networking/endpoint, and cloud/automation/monitoring.
+- **Technical expertise** — Skills grouped around cloud platforms, infrastructure as code, DevOps, automation, security, and monitoring.
 - **Experience timeline** — Datara Inc, Smart & Creative Solutions Group, and EditPoint roles.
 - **Education and certifications** — M.S. Cybersecurity, B.S. Computer Science, CEH, and CCNA in progress.
-- **LinkedIn support file** — Ready-to-paste profile copy in `linkedin-profile-update.md`.
 - **Template inspiration** — Adapted from the structure and feel of [developerFolio](https://github.com/saadpasta/developerFolio), implemented without requiring a React build pipeline.
 
 ## Featured Projects
@@ -63,7 +62,6 @@ portfolio/
 │   └── portfolio-hero.png      # Hero section image
 ├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
-├── linkedin-profile-update.md  # LinkedIn profile copy based on the latest resume
 └── README.md                   # Project overview and setup
 ```
 
@@ -72,7 +70,6 @@ portfolio/
 - Edit page content in `index.html`.
 - Edit layout, colors, and responsive styling in `styles.css`.
 - Replace the hero image at `assets/portfolio-hero.png`.
-- Use `linkedin-profile-update.md` when updating the LinkedIn profile.
 - Commit changes and push to `main`.
 
 ## GitHub Pages Deployment
