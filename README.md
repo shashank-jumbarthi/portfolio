@@ -16,7 +16,7 @@ The portfolio is aligned with the latest resume and highlights hands-on enterpri
 - **Career proof points** — Enterprise user support, M.S. Cybersecurity, CEH, and cloud/CI/CD experience.
 - **What I do section** — Desktop support, identity/endpoint operations, and cloud automation.
 - **Proficiency bars** — Practical strengths across support, Microsoft platforms, cloud, monitoring, and troubleshooting.
-- **Featured projects** — KubeForge, AegisForge, TitanFabric, enterprise networking, and containerized Python work.
+- **Featured projects** — KubeForge and AegisForge.
 - **Technical expertise** — Skills grouped by IT support, systems/Microsoft, networking/endpoint, and cloud/automation/monitoring.
 - **Experience timeline** — Datara Inc, Smart & Creative Solutions Group, and EditPoint roles.
 - **Education and certifications** — M.S. Cybersecurity, B.S. Computer Science, CEH, and CCNA in progress.
@@ -27,9 +27,6 @@ The portfolio is aligned with the latest resume and highlights hands-on enterpri
 
 - **KubeForge** — Kubernetes cluster qualification and reliability framework using Kubernetes, AWS EKS, Terraform, Python, GitHub Actions, Docker, Helm, Prometheus, Grafana, and OpenTelemetry.
 - **AegisForge** — DevSecOps and SOC automation platform using Python, FastAPI, React, PostgreSQL, Docker, Kubernetes, Terraform, AWS, GitHub Actions, Nmap, SIEM concepts, and MITRE ATT&CK mapping.
-- **TitanFabric** — Infrastructure discovery and network intelligence platform for asset discovery, topology mapping, and infrastructure visibility.
-- **Enterprise Network Infrastructure Solution** — Campus network design using Cisco switching concepts, VLANs, IP addressing, security practices, BOMs, and proposal documentation.
-- **Sample Python Project** — Containerized Python application with Docker and AWS CodeBuild-ready configuration.
 
 ## Built With
 
