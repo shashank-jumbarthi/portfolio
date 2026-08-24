@@ -1,53 +1,43 @@
-# Shashank Jumbarthi — Cloud & DevOps Portfolio
+# Shashank Jumbarthi — Desktop Support, Cloud & DevOps Portfolio
 
-> Cloud engineer and DevOps specialist focused on infrastructure automation, DevSecOps, cybersecurity, and scalable system design with hands-on IT infrastructure support experience.
+> Desktop Support Technician and cloud engineer focused on Tier 1/2 support, Microsoft 365, Active Directory, endpoint support, cloud operations, automation, DevOps, and cybersecurity.
 
-[**View the live portfolio**](https://shashank-jumbarthi.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/shashank-jumbarthi/) · [GitHub](https://github.com/shashank-jumbarthi) · [Email](mailto:shashankjumbarthi7@gmail.com)
+[**View the live portfolio**](https://shashank-jumbarthi.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/shashankjumbarthi/) · [GitHub](https://github.com/shashank-jumbarthi) · [Email](mailto:shashankjumbarthi7@gmail.com)
 
-## About Me
+## About
 
-I'm a passionate cloud and DevOps engineer dedicated to building resilient, secure, and automated infrastructure. With expertise spanning cloud engineering, DevOps, DevSecOps, and cybersecurity, I focus on bridging the gap between development and operations through intelligent automation and infrastructure-as-code practices.
+This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site presents a desktop support foundation with cloud engineering, DevOps, DevSecOps, cybersecurity, automation, and infrastructure support experience in a lightweight, responsive single-page design.
 
-My background combines hands-on IT infrastructure support with advanced cloud architecture and security operations. I'm committed to designing systems that are not only scalable and efficient but also secure by design. I stay current with emerging technologies and best practices in cloud computing, containerization, infrastructure automation, and security compliance.
+The portfolio is aligned with the latest resume and highlights hands-on enterprise support across Windows, macOS, Linux, Microsoft 365, Active Directory, Microsoft Entra ID, endpoint management, networking, AWS, Azure, CI/CD, scripting, monitoring, and documentation.
 
-## Overview
+## Portfolio Highlights
 
-This repository contains the source for my personal cloud and DevOps portfolio. The site presents my professional experience, technical skills, featured projects, certifications, and expertise in a lightweight, responsive design.
+- **Professional introduction** — Desktop Support, Cloud Engineering, and DevOps positioning.
+- **Career proof points** — Enterprise user support, M.S. Cybersecurity, CEH, and cloud/CI/CD experience.
+- **Featured projects** — KubeForge, AegisForge, TitanFabric, enterprise networking, and containerized Python work.
+- **Technical expertise** — Skills grouped by IT support, systems/Microsoft, networking/endpoint, and cloud/automation/monitoring.
+- **Experience timeline** — Datara Inc, Smart & Creative Solutions Group, and EditPoint roles.
+- **Education and certifications** — M.S. Cybersecurity, B.S. Computer Science, CEH, and CCNA in progress.
+- **LinkedIn support file** — Ready-to-paste profile copy in `linkedin-profile-update.md`.
 
-The portfolio connects my IT infrastructure foundation with my specialized work in cloud engineering and DevOps. It emphasizes automation, infrastructure-as-code, security best practices, and evidence-driven deployment strategies.
+## Featured Projects
 
-## Portfolio highlights
+- **KubeForge** — Kubernetes cluster qualification and reliability framework using Kubernetes, AWS EKS, Terraform, Python, GitHub Actions, Docker, Helm, Prometheus, Grafana, and OpenTelemetry.
+- **AegisForge** — DevSecOps and SOC automation platform using Python, FastAPI, React, PostgreSQL, Docker, Kubernetes, Terraform, AWS, GitHub Actions, Nmap, SIEM concepts, and MITRE ATT&CK mapping.
+- **TitanFabric** — Infrastructure discovery and network intelligence platform for asset discovery, topology mapping, and infrastructure visibility.
+- **Enterprise Network Infrastructure Solution** — Campus network design using Cisco switching concepts, VLANs, IP addressing, security practices, BOMs, and proposal documentation.
+- **Sample Python Project** — Containerized Python application with Docker and AWS CodeBuild-ready configuration.
 
-- **Professional introduction** — A focused hero and About section presenting my headshot, professional identity, background, and core competencies.
-- **Career timeline** — A chronological timeline covering my professional journey, roles, and key achievements in cloud, DevOps, and IT infrastructure.
-- **Technical expertise** — Skills organized by discipline: Cloud Platforms, Infrastructure Automation, DevOps & CI/CD, DevSecOps & Security, and IT Infrastructure.
-- **Featured projects** — Curated project showcase with summaries, technology tags, and repository links highlighting hands-on work.
-- **Certifications & credentials** — CEH certification and relevant professional development highlighted.
-- **Responsive experience** — Optimized layouts for desktop, tablet, and mobile viewing.
-
-## Featured projects
-
-Coming soon — Featured DevOps and cloud infrastructure projects with detailed breakdowns.
-
-## Technical expertise
-
-- **Cloud Platforms:** AWS, Azure, Google Cloud Platform
-- **Infrastructure Automation:** Terraform, CloudFormation, Ansible, Vagrant
-- **DevOps & CI/CD:** Docker, Kubernetes, Jenkins, GitLab CI/CD, GitHub Actions
-- **DevSecOps & Security:** Container security, secrets management, compliance, security scanning
-- **IT Infrastructure:** Linux/Windows systems, networking, server administration, infrastructure support
-- **Scripting & Development:** Bash, Python, PowerShell
-
-## Built with
+## Built With
 
 - Semantic HTML5
-- Modern CSS3 (responsive layouts, Grid, custom properties)
+- Modern CSS3
 - Vanilla JavaScript
 - GitHub Pages
 
-The portfolio intentionally remains framework-free for lightweight performance and full customization control. All content, styling, and interactions are self-contained.
+The portfolio intentionally remains framework-free for lightweight performance, simple deployment, and full customization control.
 
-## Run locally
+## Run Locally
 
 ```bash
 git clone https://github.com/shashank-jumbarthi/portfolio.git
@@ -55,23 +45,50 @@ cd portfolio
 python3 -m http.server 8000
 ```
 
-Then open [http://localhost:8000](http://localhost:8000) in a browser.
+Then open:
 
-## Repository structure
+```text
+http://localhost:8000
+```
+
+## Repository Structure
 
 ```text
 portfolio/
 ├── assets/
 │   └── portfolio-hero.png      # Hero section image
-├── index.html                  # Portfolio content, styling, and interactions
+├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
-└── README.md                   # Project overview and local setup
+├── linkedin-profile-update.md  # LinkedIn profile copy based on the latest resume
+└── README.md                   # Project overview and setup
+```
+
+## Updating The Portfolio
+
+- Edit page content in `index.html`.
+- Edit layout, colors, and responsive styling in `styles.css`.
+- Replace the hero image at `assets/portfolio-hero.png`.
+- Use `linkedin-profile-update.md` when updating the LinkedIn profile.
+- Commit changes and push to `main`.
+
+## GitHub Pages Deployment
+
+This repository is configured to deploy from the `main` branch using GitHub Pages:
+
+```text
+Settings -> Pages -> Source: Deploy from branch -> Branch: main -> Folder: /root
+```
+
+After each push to `main`, GitHub Pages rebuilds the site and publishes it at:
+
+```text
+https://shashank-jumbarthi.github.io/portfolio/
 ```
 
 ## Connect
 
 - [Portfolio](https://shashank-jumbarthi.github.io/portfolio/)
-- [LinkedIn](https://www.linkedin.com/in/shashank-jumbarthi/)
+- [LinkedIn](https://www.linkedin.com/in/shashankjumbarthi/)
 - [GitHub](https://github.com/shashank-jumbarthi)
 - [Email](mailto:shashankjumbarthi7@gmail.com)
 
