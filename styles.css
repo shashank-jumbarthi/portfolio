@@ -98,6 +98,19 @@ a {
   color: var(--primary);
 }
 
+.nav-links .nav-cta {
+  border-radius: 999px;
+  background: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  box-shadow: 0 10px 26px rgba(85, 25, 139, 0.18);
+}
+
+.nav-links .nav-cta:hover {
+  background: var(--primary-dark);
+  color: white;
+}
+
 .section {
   max-width: var(--max);
   margin: 0 auto;
