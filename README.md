@@ -36,10 +36,6 @@ The portfolio is aligned with the updated resume and a DevOps/cloud career direc
 
 The portfolio intentionally remains framework-free for lightweight performance, simple deployment, and full customization control.
 
-## Template Note
-
-The requested reference template, [saadpasta/developerFolio](https://github.com/saadpasta/developerFolio), is a React/Create React App project. This repo keeps the same GitHub Pages root deployment flow, so the template was adapted into static HTML/CSS instead of replacing the project with a build-based React app.
-
 ## Run Locally
 
 ```bash
