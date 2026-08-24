@@ -268,6 +268,7 @@ h3 {
 
 .skills-section {
   display: flex;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -287,17 +288,46 @@ h3 {
   line-height: 1.45;
 }
 
-.software-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 28px 0;
+.skills-text-subtitle {
+  margin-top: 14px;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 1.35;
+  text-transform: uppercase;
 }
 
-.software-row span {
+.dev-icons {
+  margin: 18px 0 40px;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.dev-icons li {
+  display: inline-block;
+  min-width: 66px;
+  margin: 0 10px 22px;
+  vertical-align: top;
+}
+
+.skill-icon {
+  display: inline-block;
+  color: var(--muted);
+  font-size: 3rem;
+  line-height: 1;
+  transition: 0.2s ease-in;
+}
+
+.dev-icons p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.dev-icons li:hover .skill-icon,
+.dev-icons li:hover p {
   color: var(--skills);
-  font-size: 1rem;
-  font-weight: 700;
 }
 
 .section-heading {

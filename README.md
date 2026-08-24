@@ -57,9 +57,9 @@ portfolio/
 ├── assets/
 │   └── Agustina.woff           # developerFolio logo font
 │   └── contactMail.webp        # developerFolio contact illustration
+│   └── developerActivity.svg   # developerFolio skills illustration
 │   └── manOnTable.svg          # developerFolio hero illustration
 │   └── shashank-jumbarthi-resume.pdf
-│   └── skill.svg               # developerFolio skills illustration
 ├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
 └── README.md                   # Project overview and setup
