@@ -1,6 +1,6 @@
 # Shashank Jumbarthi — Cloud & DevOps Portfolio
 
-> IT and Cloud Engineer with 7+ years of experience across AWS, Azure, Kubernetes, Terraform, CI/CD, automation, DevSecOps, observability, and secure infrastructure.
+> IT and Cloud Engineer with 5+ years of experience across AWS, Azure, Kubernetes, Terraform, CI/CD, automation, infrastructure support, observability, and secure operations.
 
 [**View the live portfolio**](https://shashank-jumbarthi.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/shashankjumbarthi/) · [GitHub](https://github.com/shashank-jumbarthi) · [Email](mailto:shashankjumbarthi7@gmail.com)
 
@@ -8,12 +8,12 @@
 
 This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site uses a developerFolio-inspired layout while staying as a lightweight static GitHub Pages site.
 
-The portfolio is aligned with the updated resume and a DevOps/cloud career direction, highlighting AWS, Azure, Kubernetes, Terraform, CI/CD, scripting, monitoring, DevSecOps, infrastructure reliability, and production troubleshooting. A downloadable resume PDF is included in the site assets.
+The portfolio is aligned with the updated resume and a DevOps/cloud career direction, highlighting AWS, Azure, Kubernetes, Terraform, CI/CD, scripting, monitoring, identity and access management, infrastructure reliability, and production troubleshooting. A downloadable resume PDF is included in the site assets.
 
 ## Portfolio Highlights
 
 - **developerFolio-style introduction** — Original-style header, Agustina logo wordmark, circular social icons, resume buttons, and large hero visual.
-- **Career proof points** — 7+ years of IT/cloud experience, graduate cybersecurity education, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
+- **Career proof points** — 5+ years of IT/cloud experience, graduate cybersecurity education, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
 - **What I do section** — Cloud infrastructure, DevOps automation, DevSecOps, and observability.
 - **Proficiency bars** — Practical strengths across cloud infrastructure, CI/CD, containers, scripting, security, and monitoring.
 - **Featured projects** — KubeForge and AegisForge.
