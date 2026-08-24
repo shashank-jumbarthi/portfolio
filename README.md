@@ -8,11 +8,11 @@
 
 This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site uses a developerFolio-inspired layout while staying as a lightweight static GitHub Pages site.
 
-The portfolio is aligned with a DevOps and cloud career direction, highlighting AWS, Azure, Kubernetes, Terraform, CI/CD, scripting, monitoring, DevSecOps, infrastructure reliability, and practical troubleshooting experience from an IT operations background.
+The portfolio is aligned with a DevOps and cloud career direction, highlighting AWS, Azure, Kubernetes, Terraform, CI/CD, scripting, monitoring, DevSecOps, infrastructure reliability, and practical troubleshooting experience from an IT operations background. A downloadable resume PDF is included in the site assets.
 
 ## Portfolio Highlights
 
-- **developerFolio-style introduction** — Greeting, social links, call-to-action buttons, and a large hero visual.
+- **developerFolio-style introduction** — Greeting, social links, resume button, project link, and a large hero visual.
 - **Career proof points** — M.S. Cybersecurity, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
 - **What I do section** — Cloud infrastructure, DevOps automation, DevSecOps, and observability.
 - **Proficiency bars** — Practical strengths across cloud infrastructure, CI/CD, containers, scripting, security, and monitoring.
@@ -60,6 +60,7 @@ http://localhost:8000
 portfolio/
 ├── assets/
 │   └── programmer.svg          # developerFolio hero illustration
+│   └── shashank-jumbarthi-resume.pdf
 ├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
 └── README.md                   # Project overview and setup
@@ -70,6 +71,7 @@ portfolio/
 - Edit page content in `index.html`.
 - Edit layout, colors, and responsive styling in `styles.css`.
 - Replace the hero illustration at `assets/programmer.svg`.
+- Replace the resume at `assets/shashank-jumbarthi-resume.pdf`.
 - Commit changes and push to `main`.
 
 ## GitHub Pages Deployment
