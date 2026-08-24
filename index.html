@@ -2,199 +2,287 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Shashank Jumbarthi — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shashank Jumbarthi | Cloud, DevOps, and Cybersecurity Portfolio</title>
+  <meta name="description" content="Portfolio for Shashank Jumbarthi, a software and cloud engineer focused on AWS, Azure, DevOps, DevSecOps, automation, and infrastructure support." />
+  <meta property="og:title" content="Shashank Jumbarthi | Portfolio" />
+  <meta property="og:description" content="Cloud, DevOps, DevSecOps, and IT infrastructure portfolio." />
+  <meta property="og:image" content="assets/portfolio-hero.png" />
+  <link rel="preload" as="image" href="assets/portfolio-hero.png" />
   <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Shashank Jumbarthi — IT Desktop Support | Software & Cloud Engineering | DevOps & DevSecOps" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <div class="header-row">
-        <div class="header-text">
-          <h1>Shashank Jumbarthi</h1>
-          <p class="tagline">IT Desktop Support &ensp;·&ensp; Software & Cloud Engineering &ensp;·&ensp; DevOps & DevSecOps</p>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" aria-label="Primary navigation">
+    <nav class="nav-shell">
+      <a class="brand" href="#top" aria-label="Shashank Jumbarthi home">
+        <span class="brand-mark" aria-hidden="true">SJ</span>
+        <span>Shashank Jumbarthi</span>
+      </a>
+      <div class="nav-links" aria-label="Page sections">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
       </div>
-      <nav class="top-links">
-        <a href="mailto:Shashankjumbarthi7@gmail.com" class="nav-link">📧 Email</a>
-        <a href="https://linkedin.com/in/shashank-jumbarthi" target="_blank" rel="noopener" class="nav-link">💼 LinkedIn</a>
-        <a href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener" class="nav-link">🐙 GitHub</a>
-        <a href="#contact" class="nav-link">📞 Contact</a>
-      </nav>
-    </div>
+    </nav>
   </header>
 
-  <main class="container">
-    <!-- About -->
-    <section id="about" class="card fade-in">
-      <h2>👋 Professional Summary</h2>
-      <p>Software and cloud engineer with a background in IT support and hands-on experience with AWS, Azure, Linux, Python, Terraform, Docker, Kubernetes, Jenkins, and GitHub Actions. Comfortable troubleshooting systems, fixing deployment issues, writing automation scripts, and working with development and infrastructure teams. I focus on practical solutions, clear documentation, and keeping systems reliable.</p>
-      <ul class="contact-small">
-        <li>✉️ <a href="mailto:Shashankjumbarthi7@gmail.com">Shashankjumbarthi7@gmail.com</a></li>
-      </ul>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="card fade-in">
-      <h2>🛠️ Core Technical Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h4>🖥️ IT Support</h4>
-          <p>Windows 10/11, Windows Server, macOS, Linux, Microsoft 365, Active Directory / Entra ID, Group Policy, Intune, SCCM, JAMF, ServiceNow, Jira</p>
-        </div>
-        <div class="skill-category">
-          <h4>☁️ Software & Cloud</h4>
-          <p>Python, Java, Bash, PowerShell, REST APIs, Git, AWS (EC2, Lambda, ECS, VPC, S3, IAM, KMS, RDS), Azure</p>
-        </div>
-        <div class="skill-category">
-          <h4>🚀 DevOps & Platform</h4>
-          <p>Terraform, CloudFormation, Ansible, Docker, Kubernetes, Jenkins, GitHub Actions, CI/CD, IaC</p>
-        </div>
-        <div class="skill-category">
-          <h4>🔒 DevSecOps & Observability</h4>
-          <p>IAM & least-privilege, KMS, security groups, Prometheus, Grafana, ELK, CloudWatch, logging, incident response</p>
+  <main id="main">
+    <section id="top" class="hero">
+      <img class="hero-image" src="assets/portfolio-hero.png" alt="Abstract cloud infrastructure, security, and deployment dashboard workspace" />
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Cloud Engineering | DevOps | DevSecOps</p>
+        <h1>Building reliable infrastructure, secure delivery pipelines, and practical automation.</h1>
+        <p class="hero-copy">
+          I am Shashank Jumbarthi, a software and cloud engineer with a foundation in IT desktop support and hands-on work across AWS, Azure, Linux, Python, Terraform, Docker, Kubernetes, Jenkins, and GitHub Actions.
+        </p>
+        <div class="hero-actions" aria-label="Contact and profile links">
+          <a class="button primary" href="mailto:Shashankjumbarthi7@gmail.com">Email Me</a>
+          <a class="button secondary" href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener">GitHub</a>
+          <a class="button secondary" href="https://linkedin.com/in/shashank-jumbarthi" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="card fade-in">
-      <h2>📂 Featured Projects</h2>
+    <section class="proof-band" aria-label="Portfolio highlights">
+      <div class="proof-item">
+        <strong>8+ years</strong>
+        <span>IT, software, cloud, and infrastructure experience</span>
+      </div>
+      <div class="proof-item">
+        <strong>M.S.</strong>
+        <span>Cybersecurity, Robert Morris University</span>
+      </div>
+      <div class="proof-item">
+        <strong>CEH</strong>
+        <span>Certified Ethical Hacker, EC-Council</span>
+      </div>
+      <div class="proof-item">
+        <strong>Cloud + CI/CD</strong>
+        <span>AWS, Azure, Terraform, Docker, Kubernetes, Jenkins</span>
+      </div>
+    </section>
 
-      <article class="project">
-        <div class="project-header">
-          <h3>TitanFabric — Infrastructure Discovery & Network Intelligence</h3>
-          <span class="project-tag">Python</span>
-          <span class="project-tag">PostgreSQL</span>
-          <span class="project-tag">Docker</span>
+    <section class="section about-section" aria-labelledby="about-title">
+      <div class="section-kicker">Profile</div>
+      <div class="section-grid">
+        <div>
+          <h2 id="about-title">Engineer with support instincts and cloud delivery depth.</h2>
         </div>
-        <p>Python-based platform for asset discovery, topology mapping, and network visibility. Uses SNMP, SSH, ICMP and APIs to collect inventory and build topology. Backend analytics stored in PostgreSQL. Built with containerization and CI/CD pipeline.</p>
-        <p class="meta">Features: asset discovery · network topology · CI/CD pipeline · Dockerized deployment</p>
-        <p><a href="https://github.com/shashank-jumbarthi/TitanFabric" target="_blank" rel="noopener" class="btn">🔗 View on GitHub</a></p>
-      </article>
-
-      <article class="project">
-        <div class="project-header">
-          <h3>Mr. Robot: 1 — Penetration Testing Walkthrough</h3>
-          <span class="project-tag">Cybersecurity</span>
-          <span class="project-tag">Nmap</span>
-          <span class="project-tag">Metasploit</span>
+        <div class="section-copy">
+          <p>
+            My work started in desktop support, where I learned how to diagnose issues quickly, communicate clearly, and document repeatable fixes. I later moved into software and cloud engineering, then expanded into DevOps and cloud security.
+          </p>
+          <p>
+            I focus on dependable systems: infrastructure that can be rebuilt, pipelines that reduce manual work, access controls that follow least privilege, and documentation that helps teams move faster during incidents and releases.
+          </p>
         </div>
-        <p>Detailed walkthrough and methodology for the <em>Mr. Robot: 1</em> VulnHub machine. Covers end-to-end penetration testing within an isolated virtual environment — reconnaissance, vulnerability discovery, exploitation, and privilege escalation.</p>
-        <p class="meta">Tools: Nmap · Burp Suite · Metasploit · Hydra · OSCP-level methodology</p>
-        <p><a href="https://github.com/shashank-jumbarthi/Walkthrough-Mr.-Robot-1-VulnHub-" target="_blank" rel="noopener" class="btn">🔗 View on GitHub</a></p>
-      </article>
+      </div>
+    </section>
 
-      <article class="project">
-        <div class="project-header">
-          <h3>Banking System — OOP in Python</h3>
-          <span class="project-tag">Python</span>
-          <span class="project-tag">OOP</span>
-          <span class="project-tag">JSON</span>
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">Selected Work</div>
+          <h2 id="projects-title">Featured projects</h2>
         </div>
-        <p>Python-based banking system built with Object-Oriented Programming principles. Features secure user authentication (password hashing), account management with unique account numbers, deposits, withdrawals, and persistent JSON-based data storage.</p>
-        <p class="meta">OOP concepts: encapsulation · inheritance · data persistence · secure auth</p>
-        <p><a href="https://github.com/shashank-jumbarthi/Banking-systems-with-OOP-in-Python" target="_blank" rel="noopener" class="btn">🔗 View on GitHub</a></p>
-      </article>
+        <a class="text-link" href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener">View all repositories</a>
+      </div>
 
-      <article class="project">
-        <div class="project-header">
+      <div class="project-grid">
+        <article class="project-card featured-project">
+          <div class="project-meta">
+            <span>Python</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+          </div>
+          <h3>TitanFabric - Infrastructure Discovery and Network Intelligence</h3>
+          <p>
+            Python-based platform for asset discovery, topology mapping, and network visibility using SNMP, SSH, ICMP, and APIs. Includes backend analytics, PostgreSQL storage, Docker orchestration, and operational documentation.
+          </p>
+          <a href="https://github.com/shashank-jumbarthi/TitanFabric" target="_blank" rel="noopener">Open project</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span>Cybersecurity</span>
+            <span>Nmap</span>
+            <span>Metasploit</span>
+          </div>
+          <h3>Mr. Robot: 1 Penetration Testing Walkthrough</h3>
+          <p>
+            End-to-end VulnHub walkthrough covering reconnaissance, vulnerability scanning, exploitation, privilege escalation, and documentation in an isolated lab environment.
+          </p>
+          <a href="https://github.com/shashank-jumbarthi/Walkthrough-Mr.-Robot-1-VulnHub-" target="_blank" rel="noopener">Open project</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span>Python</span>
+            <span>OOP</span>
+            <span>JSON</span>
+          </div>
+          <h3>Banking System with OOP in Python</h3>
+          <p>
+            Object-oriented banking application with account management, password hashing, validated deposits and withdrawals, transaction history, and JSON-based persistence.
+          </p>
+          <a href="https://github.com/shashank-jumbarthi/Banking-systems-with-OOP-in-Python" target="_blank" rel="noopener">Open project</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span>Networking</span>
+            <span>Cisco</span>
+            <span>VLANs</span>
+          </div>
           <h3>Enterprise Network Infrastructure Solution</h3>
-          <span class="project-tag">Networking</span>
-          <span class="project-tag">Cisco</span>
-          <span class="project-tag">VLAN</span>
-        </div>
-        <p>Campus network design using Cisco switching concepts, VLAN segmentation, IP addressing, and network security best practices. Delivered design documentation, BOMs, and client-ready proposal materials.</p>
-        <p class="meta">Focus: network segmentation · IP schema · security architecture · BOM generation</p>
-        <p><a href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener" class="btn">📄 Request Docs</a></p>
-      </article>
+          <p>
+            Campus network solution using Cisco switching concepts, VLAN segmentation, IP addressing, basic network security, bill of materials, and customer-facing proposal documentation.
+          </p>
+        </article>
 
-      <article class="project">
-        <div class="project-header">
-          <h3>Sample Python Project — Containerized App</h3>
-          <span class="project-tag">Python</span>
-          <span class="project-tag">Docker</span>
-          <span class="project-tag">AWS</span>
-        </div>
-        <p>Containerized Python application with Dockerfile, build specification, and application security configuration. Demonstrates CI/CD-ready setup with Buildspec for AWS CodeBuild integration.</p>
-        <p class="meta">Stack: Python · Docker · AWS CodeBuild · AppSec</p>
-        <p><a href="https://github.com/shashank-jumbarthi/sample-python-project" target="_blank" rel="noopener" class="btn">🔗 View on GitHub</a></p>
-      </article>
-    </section>
-
-    <!-- Experience -->
-    <section id="experience" class="card fade-in">
-      <h2>💼 Selected Experience</h2>
-
-      <div class="exp-item">
-        <h4>DevOps / Cloud Engineer — <span class="company">Datara Inc</span></h4>
-        <p class="exp-date">Dec 2025 – Present</p>
-        <ul>
-          <li>Support AWS & Azure cloud environments, CI/CD pipelines (Jenkins, GitHub Actions), infrastructure as code (Terraform, CloudFormation), and container orchestration (Docker, Kubernetes).</li>
-          <li>Integrate DevSecOps controls: IAM, KMS, security groups; monitor with CloudWatch, Prometheus, Grafana, and ELK stack.</li>
-        </ul>
-      </div>
-
-      <div class="exp-item">
-        <h4>Software / Cloud Engineer — <span class="company">Smart & Creative Solutions Group</span></h4>
-        <p class="exp-date">Dec 2019 – Jun 2023</p>
-        <ul>
-          <li>Built automation scripts, CI/CD pipelines, and cloud infrastructure; authored runbooks and operational documentation.</li>
-        </ul>
-      </div>
-
-      <div class="exp-item">
-        <h4>IT Desktop Support — <span class="company">EditPoint (OPC) Pvt. Ltd</span></h4>
-        <p class="exp-date">Aug 2016 – May 2019</p>
-        <ul>
-          <li>Tier 1/2 support across Windows and macOS environments, Active Directory administration, system imaging, ServiceNow-based incident management, and SOP creation.</li>
-        </ul>
+        <article class="project-card">
+          <div class="project-meta">
+            <span>Python</span>
+            <span>Docker</span>
+            <span>AWS</span>
+          </div>
+          <h3>Sample Python Project - Containerized App</h3>
+          <p>
+            Containerized Python application with a Dockerfile, build specification, and application security configuration. Demonstrates a CI/CD-ready setup for AWS CodeBuild integration.
+          </p>
+          <a href="https://github.com/shashank-jumbarthi/sample-python-project" target="_blank" rel="noopener">Open project</a>
+        </article>
       </div>
     </section>
 
-    <!-- Education -->
-    <section id="education" class="card fade-in">
-      <h2>🎓 Education & Certifications</h2>
-      <div class="edu-grid">
-        <div class="edu-item">
-          <h4>M.S. Cybersecurity</h4>
-          <p>Robert Morris University — May 2025</p>
+    <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">Capabilities</div>
+          <h2 id="skills-title">Technical strengths</h2>
         </div>
-        <div class="edu-item">
-          <h4>B.S. Computer Science</h4>
-          <p>University of Madras — Apr 2016</p>
-        </div>
-        <div class="edu-item">
-          <h4>Certifications</h4>
-          <p>Certified Ethical Hacker (CEH) — EC-Council</p>
-        </div>
+      </div>
+
+      <div class="skills-grid">
+        <article>
+          <h3>IT Support</h3>
+          <p>Tier 1/Tier 2 support, Windows 10/11, Windows Server, macOS, Linux, Microsoft 365, Active Directory, Entra ID, Group Policy, Intune, SCCM, JAMF, ServiceNow, Jira, imaging, endpoint management, VPN, TCP/IP, DNS, DHCP, Wi-Fi, and RDP.</p>
+        </article>
+        <article>
+          <h3>Software and Cloud</h3>
+          <p>Python, Java, Bash, PowerShell, REST APIs, Git, AWS EC2, Lambda, ECS, VPC, S3, IAM, KMS, RDS, CloudWatch, Route 53, ELB, Auto Scaling, Azure, Microsoft Entra ID, and cloud networking.</p>
+        </article>
+        <article>
+          <h3>DevOps and Platform</h3>
+          <p>Terraform, CloudFormation, Ansible, Docker, Kubernetes, Jenkins, GitHub Actions, CI/CD, infrastructure as code, configuration management, release automation, and Linux administration.</p>
+        </article>
+        <article>
+          <h3>DevSecOps and Observability</h3>
+          <p>Least-privilege IAM, security groups, network ACLs, encryption, vulnerability remediation, patching, endpoint protection, Prometheus, Grafana, ELK Stack, logging, alerting, incident response, and root-cause analysis.</p>
+        </article>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="card fade-in">
-      <h2>📬 Get In Touch</h2>
-      <p>If you want to collaborate, hire for cloud / DevOps / DevSecOps work, or discuss a project — reach out anytime.</p>
-      <ul class="contact-list">
-        <li>✉️ <a href="mailto:Shashankjumbarthi7@gmail.com">Shashankjumbarthi7@gmail.com</a></li>
-        <li>💼 <a href="https://linkedin.com/in/shashank-jumbarthi" target="_blank" rel="noopener">linkedin.com/in/shashank-jumbarthi</a></li>
-        <li>🐙 <a href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener">github.com/shashank-jumbarthi</a></li>
-      </ul>
+    <section id="experience" class="section" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">Experience</div>
+          <h2 id="experience-title">Recent roles</h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div>
+            <p class="date">Dec 2025 - Present</p>
+            <h3>DevOps Engineer | Cloud Engineer</h3>
+            <p class="company">Datara Inc, TX, USA</p>
+          </div>
+          <ul>
+            <li>Support AWS and Azure cloud environments across development and production workloads.</li>
+            <li>Build and maintain CI/CD workflows with Jenkins and GitHub Actions.</li>
+            <li>Provision infrastructure with Terraform and CloudFormation while applying DevSecOps controls.</li>
+            <li>Monitor infrastructure and application health with CloudWatch, Prometheus, Grafana, and ELK Stack.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div>
+            <p class="date">Dec 2019 - Jun 2023</p>
+            <h3>Software Engineer | Cloud Engineer</h3>
+            <p class="company">Smart &amp; Creative Solutions Group, London, UK</p>
+          </div>
+          <ul>
+            <li>Developed and supported enterprise software and cloud solutions across Linux and Windows environments.</li>
+            <li>Designed AWS infrastructure using EC2, Lambda, ECS, VPC, S3, IAM, KMS, RDS, CloudWatch, Route 53, Auto Scaling, and Elastic Load Balancing.</li>
+            <li>Automated provisioning, deployment support, operational checks, and repetitive engineering tasks.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div>
+            <p class="date">Aug 2016 - May 2019</p>
+            <h3>IT Desktop Support Technician</h3>
+            <p class="company">EditPoint (OPC) Pvt. Ltd., Hyderabad, India</p>
+          </div>
+          <ul>
+            <li>Provided Tier 1 and Tier 2 support for hardware, software, operating-system, network, VPN, Microsoft 365, and peripheral issues.</li>
+            <li>Administered Active Directory requests, workstation imaging, patching, endpoint protection, and ServiceNow ticket workflows.</li>
+            <li>Created knowledge-base articles, troubleshooting procedures, and SOPs for recurring support issues.</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
-    <footer class="site-footer">
-      <p>© <span id="year"></span> Shashank Jumbarthi — Built with HTML & CSS</p>
-    </footer>
+    <section class="section education-section" aria-labelledby="education-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">Education and Certification</div>
+          <h2 id="education-title">Academic foundation</h2>
+        </div>
+      </div>
+      <div class="education-grid">
+        <article>
+          <span>May 2025</span>
+          <h3>Master of Science, Cybersecurity</h3>
+          <p>Robert Morris University, Pittsburgh, PA</p>
+        </article>
+        <article>
+          <span>April 2016</span>
+          <h3>Bachelor of Science, Computer Science</h3>
+          <p>University of Madras, Chennai, India</p>
+        </article>
+        <article>
+          <span>EC-Council</span>
+          <h3>Certified Ethical Hacker</h3>
+          <p>Security methodology, vulnerability assessment, and ethical hacking fundamentals.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2 id="contact-title">Open to cloud, DevOps, DevSecOps, and infrastructure support opportunities.</h2>
+      </div>
+      <div class="contact-actions">
+        <a href="mailto:Shashankjumbarthi7@gmail.com">Shashankjumbarthi7@gmail.com</a>
+        <a href="https://linkedin.com/in/shashank-jumbarthi" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/shashank-jumbarthi" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
   </main>
 
+  <footer class="site-footer">
+    <p>Copyright <span id="year"></span> Shashank Jumbarthi. Built for GitHub Pages.</p>
+  </footer>
+
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    // Scroll-triggered fade-in animation
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) e.target.style.opacity = '1'; });
-    }, { threshold: 0.15 });
-    document.querySelectorAll('.fade-in').forEach(el => { el.style.opacity = '0'; observer.observe(el); });
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
