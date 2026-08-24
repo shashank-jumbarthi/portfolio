@@ -1,4 +1,4 @@
-# Shashank Jumbarthi — Desktop Support, Cloud & DevOps Portfolio
+# Shashank Jumbarthi — DeveloperFolio-Style Portfolio
 
 > Desktop Support Technician and cloud engineer focused on Tier 1/2 support, Microsoft 365, Active Directory, endpoint support, cloud operations, automation, DevOps, and cybersecurity.
 
@@ -6,19 +6,22 @@
 
 ## About
 
-This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site presents a desktop support foundation with cloud engineering, DevOps, DevSecOps, cybersecurity, automation, and infrastructure support experience in a lightweight, responsive single-page design.
+This repository contains the source for Shashank Jumbarthi's personal portfolio website. The site now uses a developerFolio-inspired layout while staying as a lightweight static GitHub Pages site.
 
 The portfolio is aligned with the latest resume and highlights hands-on enterprise support across Windows, macOS, Linux, Microsoft 365, Active Directory, Microsoft Entra ID, endpoint management, networking, AWS, Azure, CI/CD, scripting, monitoring, and documentation.
 
 ## Portfolio Highlights
 
-- **Professional introduction** — Desktop Support, Cloud Engineering, and DevOps positioning.
+- **developerFolio-style introduction** — Greeting, social links, call-to-action buttons, and a large hero visual.
 - **Career proof points** — Enterprise user support, M.S. Cybersecurity, CEH, and cloud/CI/CD experience.
+- **What I do section** — Desktop support, identity/endpoint operations, and cloud automation.
+- **Proficiency bars** — Practical strengths across support, Microsoft platforms, cloud, monitoring, and troubleshooting.
 - **Featured projects** — KubeForge, AegisForge, TitanFabric, enterprise networking, and containerized Python work.
 - **Technical expertise** — Skills grouped by IT support, systems/Microsoft, networking/endpoint, and cloud/automation/monitoring.
 - **Experience timeline** — Datara Inc, Smart & Creative Solutions Group, and EditPoint roles.
 - **Education and certifications** — M.S. Cybersecurity, B.S. Computer Science, CEH, and CCNA in progress.
 - **LinkedIn support file** — Ready-to-paste profile copy in `linkedin-profile-update.md`.
+- **Template inspiration** — Adapted from the structure and feel of [developerFolio](https://github.com/saadpasta/developerFolio), implemented without requiring a React build pipeline.
 
 ## Featured Projects
 
@@ -36,6 +39,10 @@ The portfolio is aligned with the latest resume and highlights hands-on enterpri
 - GitHub Pages
 
 The portfolio intentionally remains framework-free for lightweight performance, simple deployment, and full customization control.
+
+## Template Note
+
+The requested reference template, [saadpasta/developerFolio](https://github.com/saadpasta/developerFolio), is a React/Create React App project. This repo keeps the same GitHub Pages root deployment flow, so the template was adapted into static HTML/CSS instead of replacing the project with a build-based React app.
 
 ## Run Locally
 
