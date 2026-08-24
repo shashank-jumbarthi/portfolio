@@ -59,7 +59,7 @@ http://localhost:8000
 ```text
 portfolio/
 ├── assets/
-│   └── portfolio-hero.png      # Hero section image
+│   └── programmer.svg          # developerFolio hero illustration
 ├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
 └── README.md                   # Project overview and setup
@@ -69,7 +69,7 @@ portfolio/
 
 - Edit page content in `index.html`.
 - Edit layout, colors, and responsive styling in `styles.css`.
-- Replace the hero image at `assets/portfolio-hero.png`.
+- Replace the hero illustration at `assets/programmer.svg`.
 - Commit changes and push to `main`.
 
 ## GitHub Pages Deployment
