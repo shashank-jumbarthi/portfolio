@@ -12,7 +12,7 @@ The portfolio is aligned with the updated resume and a DevOps/cloud career direc
 
 ## Portfolio Highlights
 
-- **developerFolio-style introduction** — Greeting, social links, resume button, project link, and a large hero visual.
+- **developerFolio-style introduction** — Original-style header, Agustina logo wordmark, greeting, social links, resume button, project link, and large hero visual.
 - **Career proof points** — 7+ years of IT/cloud experience, graduate cybersecurity education, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
 - **What I do section** — Cloud infrastructure, DevOps automation, DevSecOps, and observability.
 - **Proficiency bars** — Practical strengths across cloud infrastructure, CI/CD, containers, scripting, security, and monitoring.
@@ -59,7 +59,8 @@ http://localhost:8000
 ```text
 portfolio/
 ├── assets/
-│   └── programmer.svg          # developerFolio hero illustration
+│   └── Agustina.woff           # developerFolio logo font
+│   └── manOnTable.svg          # developerFolio hero illustration
 │   └── shashank-jumbarthi-resume.pdf
 ├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
@@ -70,7 +71,7 @@ portfolio/
 
 - Edit page content in `index.html`.
 - Edit layout, colors, and responsive styling in `styles.css`.
-- Replace the hero illustration at `assets/programmer.svg`.
+- Replace the hero illustration at `assets/manOnTable.svg`.
 - Replace the resume at `assets/shashank-jumbarthi-resume.pdf`.
 - Commit changes and push to `main`.
 
