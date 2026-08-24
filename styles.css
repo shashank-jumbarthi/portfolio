@@ -336,6 +336,10 @@ h3 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.card-grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .info-card,
 .project-card,
 .achievement-row article {
@@ -499,6 +503,7 @@ h3 {
 
   .card-grid,
   .card-grid.four,
+  .card-grid.three,
   .achievement-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -540,6 +545,7 @@ h3 {
 
   .card-grid,
   .card-grid.four,
+  .card-grid.three,
   .achievement-row {
     grid-template-columns: 1fr;
   }
