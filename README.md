@@ -1,6 +1,6 @@
 # Shashank Jumbarthi — Cloud & DevOps Portfolio
 
-> IT and Cloud Engineer with 5+ years of experience across AWS, Azure, Kubernetes, Terraform, CI/CD, automation, infrastructure support, observability, and secure operations.
+> Cloud and DevOps Engineer with 5+ years of experience across AWS, Azure, Kubernetes, Terraform, CI/CD, automation, infrastructure support, observability, and secure operations.
 
 [**View the live portfolio**](https://shashank-jumbarthi.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/shashankjumbarthi/) · [GitHub](https://github.com/shashank-jumbarthi) · [Email](mailto:shashankjumbarthi7@gmail.com)
 
