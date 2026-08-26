@@ -16,7 +16,7 @@ The portfolio is aligned with the updated resume and a DevOps/cloud career direc
 - **Career proof points** — 5+ years of IT/cloud experience, graduate cybersecurity education, CEH, cloud/CI/CD experience, and infrastructure troubleshooting background.
 - **What I do section** — Cloud infrastructure, DevOps automation, DevSecOps, and observability.
 - **Proficiency bars** — Practical strengths across cloud infrastructure, CI/CD, containers, scripting, security, and monitoring.
-- **Featured projects** — KubeForge and AegisForge.
+- **Featured projects** — KubeForge and AegisOps.
 - **Technical expertise** — Skills grouped around cloud platforms, infrastructure as code, DevOps, automation, security, and monitoring.
 - **Experience timeline** — Datara Inc, Smart & Creative Solutions Group, and EditPoint roles.
 - **Education and certifications** — Cybersecurity master's degrees, B.S. Computer Science, and CEH.
@@ -25,7 +25,7 @@ The portfolio is aligned with the updated resume and a DevOps/cloud career direc
 ## Featured Projects
 
 - **KubeForge** — Kubernetes cluster qualification and reliability framework using Kubernetes, AWS EKS, Terraform, Python, GitHub Actions, Docker, Helm, Prometheus, Grafana, and OpenTelemetry.
-- **AegisForge** — DevSecOps and SOC automation platform using Python, FastAPI, React, PostgreSQL, Docker, Kubernetes, Terraform, AWS, GitHub Actions, Nmap, SIEM concepts, and MITRE ATT&CK mapping.
+- **AegisOps** — DevOps, cloud, and security operations platform using Python, FastAPI, React, PostgreSQL, SQLAlchemy, Docker, GitHub Actions, AWS, Nmap, SIEM concepts, and MITRE ATT&CK mapping.
 
 ## Built With
 
