@@ -19,7 +19,7 @@ The portfolio is aligned with the updated resume and a DevOps/cloud career direc
 - **Featured projects** — KubeForge and AegisOps.
 - **Technical expertise** — Skills grouped around cloud platforms, infrastructure as code, DevOps, automation, security, and monitoring.
 - **Experience timeline** — Datara Inc, Smart & Creative Solutions Group, and EditPoint roles.
-- **Education and certifications** — Cybersecurity master's degrees, B.S. Computer Science, and CEH.
+- **Education and certifications** — M.S. Cybersecurity, M.S. Computer Science, B.S. Computer Science, and CEH.
 - **Template inspiration** — Adapted from the structure and feel of [developerFolio](https://github.com/saadpasta/developerFolio), implemented without requiring a React build pipeline.
 
 ## Featured Projects
