@@ -59,7 +59,7 @@ portfolio/
 │   └── contactMail.webp        # developerFolio contact illustration
 │   └── developerActivity.svg   # developerFolio skills illustration
 │   └── manOnTable.svg          # developerFolio hero illustration
-│   └── shashank-jumbarthi-resume.pdf
+│   └── shashank-jumbarthi-latest-resume.pdf
 ├── index.html                  # Portfolio content and structure
 ├── styles.css                  # Responsive styling and theme
 └── README.md                   # Project overview and setup
@@ -70,7 +70,7 @@ portfolio/
 - Edit page content in `index.html`.
 - Edit layout, colors, and responsive styling in `styles.css`.
 - Replace the hero illustration at `assets/manOnTable.svg`.
-- Replace the resume at `assets/shashank-jumbarthi-resume.pdf`.
+- Replace the resume at `assets/shashank-jumbarthi-latest-resume.pdf`.
 - Commit changes and push to `main`.
 
 ## GitHub Pages Deployment
