@@ -25,7 +25,7 @@ The portfolio is aligned with the updated resume and a DevOps/cloud career direc
 ## Featured Projects
 
 - **KubeForge** — Kubernetes cluster qualification and reliability framework using Kubernetes, AWS EKS, Terraform, Python, GitHub Actions, Docker, Helm, Prometheus, Grafana, and OpenTelemetry.
-- **AegisOps** — Full-stack DevOps and security operations platform using Python, FastAPI, PostgreSQL, SQLAlchemy, React, Docker, GitHub Actions, AWS CloudTrail, Nmap discovery, SIEM-style detection, automated alerting, incident correlation, deployment tracking, and MITRE ATT&CK mapping.
+- **AegisOps** — DevOps, cloud, and security operations platform using Python, FastAPI, React, PostgreSQL, SQLAlchemy, Docker, GitHub Actions, AWS, Nmap, SIEM concepts, and MITRE ATT&CK mapping.
 
 ## Built With
 
